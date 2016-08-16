@@ -1,6 +1,13 @@
-﻿  main.cpp
-c:\users\thane\documents\github\atmproject\atm project\atm project\main.cpp(12): error C2275: 'ATMMachine': illegal use of this type as an expression
-  c:\users\thane\documents\github\atmproject\atm project\atm project\atmmachine.h(15): note: see declaration of 'ATMMachine'
-c:\users\thane\documents\github\atmproject\atm project\atm project\main.cpp(12): error C2146: syntax error: missing ')' before identifier 'atmMachine'
-c:\users\thane\documents\github\atmproject\atm project\atm project\main.cpp(14): error C2059: syntax error: '}'
-c:\users\thane\documents\github\atmproject\atm project\atm project\main.cpp(14): error C2143: syntax error: missing ';' before '}'
+﻿  ATMMachine.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+ATMMachine.obj : error LNK2005: "public: __thiscall Account::Account(void)" (??0Account@@QAE@XZ) already defined in Account.obj
+ATMMachine.obj : error LNK2005: "public: void __thiscall Account::depositFunds(double)" (?depositFunds@Account@@QAEXN@Z) already defined in Account.obj
+ATMMachine.obj : error LNK2005: "public: void __thiscall Account::viewAccountBalance(double)" (?viewAccountBalance@Account@@QAEXN@Z) already defined in Account.obj
+ATMMachine.obj : error LNK2005: "public: void __thiscall Account::withdrawalFunds(double)" (?withdrawalFunds@Account@@QAEXN@Z) already defined in Account.obj
+main.obj : error LNK2005: "public: __thiscall Account::Account(void)" (??0Account@@QAE@XZ) already defined in Account.obj
+main.obj : error LNK2005: "public: void __thiscall Account::depositFunds(double)" (?depositFunds@Account@@QAEXN@Z) already defined in Account.obj
+main.obj : error LNK2005: "public: void __thiscall Account::viewAccountBalance(double)" (?viewAccountBalance@Account@@QAEXN@Z) already defined in Account.obj
+main.obj : error LNK2005: "public: void __thiscall Account::withdrawalFunds(double)" (?withdrawalFunds@Account@@QAEXN@Z) already defined in Account.obj
+C:\Users\thane\Documents\Github\ATMProject\ATM Project\Debug\ATM Project.exe : fatal error LNK1169: one or more multiply defined symbols found
