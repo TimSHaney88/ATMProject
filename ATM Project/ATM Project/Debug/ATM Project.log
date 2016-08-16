@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\thane\documents\github\atmproject\atm project\atm project\main.cpp(12): error C2275: 'ATMMachine': illegal use of this type as an expression
+  c:\users\thane\documents\github\atmproject\atm project\atm project\atmmachine.h(15): note: see declaration of 'ATMMachine'
+c:\users\thane\documents\github\atmproject\atm project\atm project\main.cpp(12): error C2146: syntax error: missing ')' before identifier 'atmMachine'
+c:\users\thane\documents\github\atmproject\atm project\atm project\main.cpp(14): error C2059: syntax error: '}'
+c:\users\thane\documents\github\atmproject\atm project\atm project\main.cpp(14): error C2143: syntax error: missing ';' before '}'
