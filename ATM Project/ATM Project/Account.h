@@ -8,15 +8,22 @@ private:
 	double balance;
 	double withdrawalAmount;
 	double depositAmount;
-
+	
 public:
-	Account();
+	Account() ;
 	//withdrawal money amount
 	void withdrawalFunds(double);
 	//how much to deposit 
 	void depositFunds(double);
 	//how much in account balance
-	void viewAccountBalance(double);
+	void viewAccountBalance();
+	double getBalance();
+	void setBalance(double);
+	double getWithdrawalAmount();
+	void setWithdrawalAmount(double);
+	double getDepositAmount();
+	void setDepositAmount(double);
+	
 };
 
 

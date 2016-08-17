@@ -1,7 +1,7 @@
 #pragma once
 #ifndef ATMMACHINE_H
 #define ATMMACHINE_H
-#include "Account.cpp"
+#include "Account.h"
 
 #include <fstream>
 #include <iostream>
@@ -18,7 +18,7 @@ private:
 	int input;
 	double wAmount;
 	double dAmount;
-	double balance;
+	
 
 public:
 	ATMMachine();

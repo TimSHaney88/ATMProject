@@ -11,6 +11,7 @@ Account::Account()
 	withdrawalAmount = 0;
 	depositAmount = 0;
 }
+
 //withdrawal money amount
 void Account::withdrawalFunds(double withdrawalAmount)
 {
@@ -20,7 +21,32 @@ void Account::withdrawalFunds(double withdrawalAmount)
 {
 	balance += depositAmount;
 }
- void Account::viewAccountBalance(double balance)
+ void Account::viewAccountBalance()
  {
 	 cout << " Your balancce is $" << balance << endl;
  }
+ double Account::getBalance()
+ {
+	 return balance;
+ }
+ void Account::setBalance(double newBal)
+ {
+	 balance = newBal;
+ }
+ double Account::getWithdrawalAmount()
+ {
+	 return withdrawalAmount;
+ }
+ void Account::setWithdrawalAmount(double wAmount)
+ {
+	 withdrawalAmount = wAmount;
+ }
+ double Account::getDepositAmount()
+ {
+	 return depositAmount;
+ }
+ void Account::setDepositAmount(double dAmount)
+ {
+	 depositAmount = dAmount;
+ }
+ 

@@ -1,3 +1,4 @@
+
 #include "Account.h"
 #include "ATMMachine.h"
 //#include "Account.cpp"
@@ -7,10 +8,11 @@
 
 using namespace std;
 
-//int main()
-//{
-//
+int main()
+{
+
 //Account account;
-//ATMMachine PromptMenu();
-//return 0;
-//}
+ATMMachine atmMachine;
+atmMachine.PromptMenu();
+return 0;
+}

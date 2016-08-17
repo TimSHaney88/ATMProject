@@ -1,13 +1,3 @@
 ﻿  ATMMachine.cpp
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  main.cpp
-ATMMachine.obj : error LNK2005: "public: __thiscall Account::Account(void)" (??0Account@@QAE@XZ) already defined in Account.obj
-ATMMachine.obj : error LNK2005: "public: void __thiscall Account::depositFunds(double)" (?depositFunds@Account@@QAEXN@Z) already defined in Account.obj
-ATMMachine.obj : error LNK2005: "public: void __thiscall Account::viewAccountBalance(double)" (?viewAccountBalance@Account@@QAEXN@Z) already defined in Account.obj
-ATMMachine.obj : error LNK2005: "public: void __thiscall Account::withdrawalFunds(double)" (?withdrawalFunds@Account@@QAEXN@Z) already defined in Account.obj
-main.obj : error LNK2005: "public: __thiscall Account::Account(void)" (??0Account@@QAE@XZ) already defined in Account.obj
-main.obj : error LNK2005: "public: void __thiscall Account::depositFunds(double)" (?depositFunds@Account@@QAEXN@Z) already defined in Account.obj
-main.obj : error LNK2005: "public: void __thiscall Account::viewAccountBalance(double)" (?viewAccountBalance@Account@@QAEXN@Z) already defined in Account.obj
-main.obj : error LNK2005: "public: void __thiscall Account::withdrawalFunds(double)" (?withdrawalFunds@Account@@QAEXN@Z) already defined in Account.obj
-C:\Users\thane\Documents\Github\ATMProject\ATM Project\Debug\ATM Project.exe : fatal error LNK1169: one or more multiply defined symbols found
+  ATM Project.vcxproj -> C:\Users\TimDesktop\Documents\GitHub\ATMProject\ATM Project\Debug\ATM Project.exe
+  ATM Project.vcxproj -> C:\Users\TimDesktop\Documents\GitHub\ATMProject\ATM Project\Debug\ATM Project.pdb (Partial PDB)

@@ -6,39 +6,44 @@ using namespace std;
 
 ATMMachine::ATMMachine()
 {
-	double wAmount = 0;
-	double dAmount = 0;
-	double balance = 1000;
+	 wAmount = 0;
+	 dAmount = 0;
+	
 }
 void ATMMachine::PromptMenu()
 {
 	cout << "Welcome to the ATM! " << endl;
 	while (true)
 	{
-		cout << "Please enter in a selection between 1 and 4 ";
+		cout << "Please enter in a selection between 1 and 4 " << endl;
+		cout << "1.  Withdrawal" << endl;
+		cout << "2.  Deposit" << endl;
+		cout << "3.  View Balance " << endl;
+
 		cin >> input;
-		
 		if (input == 1)
 		{
-			
+
 			cout << "How much would you like to withdrawal? ";
 			cin >> wAmount;
+
 			account_user.withdrawalFunds(wAmount);
 			cout << " You withdrew $" << wAmount << endl;
-			cout << balance;
-			
+			cout << account_user.getBalance() << endl;
+
 		}
+
 		 else if (input == 2)
 		{
 			cout << "How much would you like to deposit? ";
 			cin >> dAmount;
 			account_user.depositFunds(dAmount);
 			cout << " You deposited $" << dAmount << endl;
-			cout << balance;
+			cout << account_user.getBalance() << endl;
 		}
 		 else if (input == 3)
 		 {
-			 account_user.viewAccountBalance(balance);
+			 account_user.viewAccountBalance();
 		 }
 		 else if (input == 4)
 		 {
