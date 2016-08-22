@@ -21,15 +21,24 @@ void ATMMachine::PromptMenu()
 		cout << "3.  View Balance " << endl;
 
 		cin >> input;
+
 		if (input == 1)
 		{
 
 			cout << "How much would you like to withdrawal? ";
 			cin >> wAmount;
 
-			account_user.withdrawalFunds(wAmount);
-			cout << " You withdrew $" << wAmount << endl;
-			cout << account_user.getBalance() << endl;
+			/*if (wAmount < 0)
+			{
+				cout << "Enter a positive amount" << endl;
+				break;
+			}
+			else
+			{*/
+				account_user.withdrawalFunds(wAmount);
+				cout << " You withdrew $" << wAmount << endl;
+				cout << account_user.getBalance() << endl;
+			//}
 
 		}
 

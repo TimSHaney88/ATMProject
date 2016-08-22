@@ -15,7 +15,7 @@ class ATMMachine
 {
 private:
 	Account account_user;
-	int input;
+	char input;
 	double wAmount;
 	double dAmount;
 	
