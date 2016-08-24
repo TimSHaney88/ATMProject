@@ -8,18 +8,36 @@ using namespace std;
 Account::Account()
 {
 	balance = 1000;
-	withdrawalAmount = 0;
-	depositAmount = 0;
+
+	
 }
 
 //withdrawal money amount
-void Account::withdrawalFunds(double withdrawalAmount)
+bool Account::withdrawalFunds(double withdrawalAmount)
 {
-	balance -= withdrawalAmount;
+	if (balance > withdrawalAmount)
+	{
+		balance -= withdrawalAmount;
+		return true;
+	}
+	else
+	{
+		cout << "Insufficient funds! " << endl;
+		return false;
+	}
 }
- void Account::depositFunds(double depositAmount)
+ bool Account::depositFunds(double depositAmount)
 {
-	balance += depositAmount;
+	if (depositAmount > 0)
+	{
+		balance += depositAmount;
+		return true;
+	}
+	else
+	{
+		cout << "Please enter a positive number. " << endl;
+		return false;
+	}
 }
  void Account::viewAccountBalance()
  {

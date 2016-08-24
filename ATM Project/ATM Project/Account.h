@@ -6,15 +6,14 @@ class Account
 {
 private:
 	double balance;
-	double withdrawalAmount;
-	double depositAmount;
+	
 	
 public:
 	Account() ;
 	//withdrawal money amount
-	void withdrawalFunds(double);
+	bool withdrawalFunds(double);
 	//how much to deposit 
-	void depositFunds(double);
+	bool depositFunds(double);
 	//how much in account balance
 	void viewAccountBalance();
 	double getBalance();
