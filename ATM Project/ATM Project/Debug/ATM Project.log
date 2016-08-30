@@ -1,7 +1,8 @@
-﻿  Account.cpp
+﻿  main.cpp
+  Account.cpp
+c:\users\thane\documents\github\atmproject\atm project\atm project\account.cpp(56): error C2065: 'withdrawalAmount': undeclared identifier
+c:\users\thane\documents\github\atmproject\atm project\atm project\account.cpp(60): error C2065: 'withdrawalAmount': undeclared identifier
+c:\users\thane\documents\github\atmproject\atm project\atm project\account.cpp(64): error C2065: 'depositAmount': undeclared identifier
+c:\users\thane\documents\github\atmproject\atm project\atm project\account.cpp(68): error C2065: 'depositAmount': undeclared identifier
   ATMMachine.cpp
   Generating Code...
-  Skipping... (no relevant changes detected)
-  main.cpp
-  ATM Project.vcxproj -> C:\Users\TimDesktop\Documents\GitHub\ATMProject\ATM Project\Debug\ATM Project.exe
-  ATM Project.vcxproj -> C:\Users\TimDesktop\Documents\GitHub\ATMProject\ATM Project\Debug\ATM Project.pdb (Partial PDB)
